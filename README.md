@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+💻 Responsive portfolio website built using HTML5, CSS3 (custom dark theme), Bootstrap 5, and JavaScript. Includes sections for projects, skills, contact, and more.
+
 <!--
 **faheemcodes/FaheemCodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
