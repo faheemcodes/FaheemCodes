@@ -69,7 +69,7 @@
             <h1 class="section-title text-center"><span>About</span> Me</h1>
             <div class="row align-items-center">
                 <div class="col-lg-5 text-center">
-                    <img src="images/profile.jpg" alt="Faheem Ahmed" class="about-img">
+                    <img src="images/profile2.jpg" alt="Faheem Ahmed" class="about-img">
                 </div>
                 <div class="col-lg-7 about-content">
                     <p>
@@ -384,7 +384,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="contact-form-outline">
+                    <div class="contact-form-outline py-md-5">
                         <form class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
@@ -428,58 +428,16 @@
         </div>
     </footer>
 
+    <button class="back-to-top" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        // Typed.js initialization
-        document.addEventListener('DOMContentLoaded', function () {
-            var typed = new Typed('#typed-output', {
-                strings: ["Frontend Developer", "UI/UX Enthusiast", "Web Designer", "Software Engineer"],
-                typeSpeed: 50,
-                backSpeed: 30,
-                loop: true
-            });
-
-            // Smooth scroll for navbar links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-
-                    // Update active class in navbar
-                    document.querySelectorAll('.nav-link').forEach(link => {
-                        link.classList.remove('active');
-                    });
-                    this.classList.add('active');
-                });
-            });
-
-            // Update active class on scroll
-            window.addEventListener('scroll', function () {
-                const scrollPosition = window.scrollY;
-
-                document.querySelectorAll('section').forEach(section => {
-                    const sectionTop = section.offsetTop - 100;
-                    const sectionHeight = section.offsetHeight;
-                    const sectionId = section.getAttribute('id');
-
-                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                        document.querySelectorAll('.nav-link').forEach(link => {
-                            link.classList.remove('active');
-                            if (link.getAttribute('href') === `#${sectionId}`) {
-                                link.classList.add('active');
-                            }
-                        });
-                    }
-                });
-            });
-        });
-    </script>
+    <script type="text/javascript" src="script.js"></script>
+   
 </body>
 
 </html>
