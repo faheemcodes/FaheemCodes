@@ -251,6 +251,11 @@ section::before {
     opacity: 1;
 }
 
+.btn-primary:focus {
+    background: var(--dark);
+    border: 2px solid var(--primary);
+}
+
 /* About Section */
 .about-img {
     width: 100%;
