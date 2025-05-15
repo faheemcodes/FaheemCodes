@@ -62,3 +62,21 @@ backToTopBtn.addEventListener('click', () => {
         behavior: 'smooth' // Smooth scroll
     });
 });
+
+// Scroll Animation Functionality
+function animateOnScroll() {
+    const elements = document.querySelectorAll('.fade-in');
+    
+    elements.forEach(element => {
+        const elementPosition = element.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+        
+        if (elementPosition < screenPosition) {
+            element.classList.add('active');
+        }
+    });
+}
+
+// Run on load and scroll
+window.addEventListener('load', animateOnScroll);
+window.addEventListener('scroll', animateOnScroll);

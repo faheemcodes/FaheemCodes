@@ -1,18 +1,37 @@
-## Hi there 👋
+# 🚀 FaheemCodes Portfolio
 
-💻 Responsive portfolio website built using HTML5, CSS3 (custom dark theme), Bootstrap 5, and JavaScript. Includes sections for projects, skills, contact, and more.
+A modern, responsive portfolio website showcasing my frontend development skills, projects, and contact information. Built with a custom dark theme and smooth animations.
 
-<!--
-**faheemcodes/FaheemCodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Live Demo]( https://faheemcodes.github.io/portfolio/ )]
+[![GitHub]( https://github.com/faheemcodes/FaheemCodes )]
 
-Here are some ideas to get you started:
+## ✨ Features
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌓 **Dark/Light Theme** (System preference detection)
+- 📱 **Fully Responsive** (Mobile, tablet & desktop)
+- 🎨 **Custom Animations** (Scroll-triggered & hover effects)
+- 📂 **Project Showcase** with live demos and code links
+- 📊 **Skills Visualization** with interactive progress bars
+- 📬 **Contact Form** (Formspree integration)
+- ⚡ **Optimized Performance** (90+ Lighthouse score)
+
+## 🛠 Technologies Used
+
+| Frontend          | Backend           | Tools               |
+|-------------------|-------------------|---------------------|
+| HTML5             | -                 | Git                 |
+| CSS3 (Flex/Grid)  | -                 | GitHub Pages        |
+| JavaScript (ES6+) | -                 | VS Code             |
+| Bootstrap 5       | -                 | Google Analytics    |
+| Font Awesome      | -                 | -                   |
+ -------------------------------------------------------------
+## 🎥 Demo
+
+## 📦 Installation
+
+To run locally:
+
+```bash
+git clone https://github.com/faheemcodes/FaheemCodes.git
+cd FaheemCodes
+# Open index.html in browser

@@ -242,6 +242,11 @@ section::before {
     border: 2px solid var(--primary);
 }
 
+ .btn-primary:focus {
+     background: var(--dark);
+    border: 2px solid var(--primary);
+}
+
 .btn-primary:hover::before {
     opacity: 1;
 }
@@ -943,4 +948,37 @@ footer p a:hover {
     }
 
 
+}
+
+
+/* ===== Scroll Animations ===== */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.fade-in.up {
+    transform: translateY(30px);
+}
+
+.fade-in.down {
+    transform: translateY(-30px);
+}
+
+.fade-in.left {
+    transform: translateX(30px);
+}
+
+.fade-in.right {
+    transform: translateX(-30px);
+}
+
+.fade-in.zoom {
+    transform: scale(0.8);
+}
+
+/* When element comes into view */
+.fade-in.active {
+    opacity: 1;
+    transform: translate(0) scale(1);
 }
