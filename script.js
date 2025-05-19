@@ -82,17 +82,3 @@ window.addEventListener('load', animateOnScroll);
 window.addEventListener('scroll', animateOnScroll);
 
 
-// EmailJS integration for contact form
-
-  document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    emailjs.sendForm('service_a8fnchk', 'template_arxo66f', this).then(function () {
-        alert('Message sent successfully!');
-      }, function (error) {
-        alert('Failed to send message. Please try again.\n' + JSON.stringify(error));
-      });
-
-    // Optional: Reset the form
-    this.reset();
-  });

@@ -206,11 +206,12 @@ section::before {
     border-color: var(--accent);
 }
 
-.btn-primary {
+.button {
     background: var(--dark);
     border: 2px solid var(--primary);
     padding: 0.75rem 2rem;
     font-weight: 600;
+    color: var(--light);
     font-size: 1.1rem;
     border-radius: var(--border-radius);
     transition: var(--transition);
@@ -223,7 +224,7 @@ section::before {
     z-index: 1;
 }
 
-.btn-primary::before {
+.button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -236,24 +237,19 @@ section::before {
     opacity: 0;
 }
 
-.btn-primary:hover {
+.button:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(255, 62, 65, 0.6);
     border: 2px solid var(--primary);
 }
 
- .btn-primary:focus {
-     background: var(--dark);
-    border: 2px solid var(--primary);
-}
-
-.btn-primary:hover::before {
-    opacity: 1;
-}
-
-.btn-primary:focus {
+.button:focus {
     background: var(--dark);
     border: 2px solid var(--primary);
+}
+
+.button:hover::before {
+    opacity: 1;
 }
 
 /* About Section */
@@ -760,7 +756,7 @@ footer p a:hover {
         font-size: 2rem;
     }
 
-    .btn-primary {
+    .button {
         padding: 0.5rem 1.5rem;
         font-size: 1rem;
     }

@@ -56,7 +56,7 @@
                         I work with HTML, CSS, JavaScript, and love crafting modern, responsive UIs.
                         Right now, I'm diving deep into animations, transitions, and frontend frameworks.
                         Ready to make the web a more beautiful place.</p>
-                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#contact" class="btn button">Hire Me</a>
                 </div>
                 <div class="col-lg-6 text-center fade-in left">
                     <img src="images/4.jpg" alt="Faheem Ahmed" class="profile-img">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-7 about-content fade-in left">
                     <p>
-                        - I'm <strong>Faheem Ahmed</strong>, a passionate Frontend Web Developer focused on creating
+                        - I am <strong>Faheem Ahmed</strong>, a passionate Frontend Web Developer focused on creating
                         clean, responsive, and user-friendly websites. I enjoy turning ideas into functional,
                         interactive designs using modern web technologies.
                     </p>
@@ -100,7 +100,7 @@
                         Full-Stack Developer. I'm currently open to internships, freelance work, and team projects
                         that help me grow and contribute to real-world solutions.
                     </p>
-                    <a href="files/myCV.pdf" class="btn btn-primary " download="files/myCV.pdf"><i
+                    <a href="files/myCV.pdf" class="btn button" download="files/myCV.pdf"><i
                             class="fas fa-download me-2"></i>Download CV</a>
 
                 </div>
@@ -409,7 +409,7 @@
                             <input type="text" class="form-control my-2" name="subject" placeholder="Subject">
                             <textarea class="form-control my-2" name="message" rows="5" placeholder="Your Message"
                                 required></textarea>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <button type="submit" class="btn button">Send Message</button>
                         </form>
 
 
@@ -453,6 +453,23 @@
   (function () {
     emailjs.init("shozgJol8JgpigoAl"); // Replace with your EmailJS Public Key
   })();
+</script>
+
+<script>
+    // EmailJS integration for contact form
+
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_a8fnchk', 'template_arxo66f', this).then(function () {
+        alert('Message sent successfully!');
+      }, function (error) {
+        alert('Failed to send message. Please try again.\n' + JSON.stringify(error));
+      });
+
+    // Optional: Reset the form
+    this.reset();
+  });
 </script>
 
 
