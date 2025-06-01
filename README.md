@@ -1,31 +1,41 @@
 # 🚀 FaheemCodes Portfolio
 
-A modern, responsive portfolio website showcasing my frontend development skills, projects, and contact information. Built with a custom dark theme and smooth animations.
+A modern, responsive portfolio website showcasing my frontend development skills, featured projects, and contact information. Built with a custom dark theme and smooth animations.
 
-[![Live Demo]( https://faheemcodes.github.io/portfolio/ )]
-[![GitHub]( https://github.com/faheemcodes/FaheemCodes )]
+🔗 **[Live Demo](https://faheemcodes.github.io/portfolio/)**  
+💻 **[GitHub Repository](https://github.com/faheemcodes/FaheemCodes)**
+
+---
 
 ## ✨ Features
 
-- 🌓 **Dark/Light Theme** (System preference detection)
-- 📱 **Fully Responsive** (Mobile, tablet & desktop)
-- 🎨 **Custom Animations** (Scroll-triggered & hover effects)
-- 📂 **Project Showcase** with live demos and code links
-- 📊 **Skills Visualization** with interactive progress bars
+- 🌓 **Dark/Light Theme** (Auto-detects system preference)
+- 📱 **Fully Responsive** (Optimized for mobile, tablet, and desktop)
+- 🎨 **Custom Animations** (Scroll-triggered and hover effects)
+- 📂 **Project Showcase** with live demos and GitHub links
+- 📊 **Skills Visualization** using interactive progress bars
 - 📬 **Contact Form** (Formspree integration)
-- ⚡ **Optimized Performance** (90+ Lighthouse score)
+- ⚡ **High Performance** (90+ score on Lighthouse)
+
+---
 
 ## 🛠 Technologies Used
 
-| Frontend          | Backend           | Tools               |
-|-------------------|-------------------|---------------------|
-| HTML5             | -                 | Git                 |
-| CSS3 (Flex/Grid)  | -                 | GitHub Pages        |
-| JavaScript (ES6+) | -                 | VS Code             |
-| Bootstrap 5       | -                 | Google Analytics    |
-| Font Awesome      | -                 | -                   |
- -------------------------------------------------------------
+| Frontend           | Backend | Tools            |
+|--------------------|---------|------------------|
+| HTML5              | -       | Git              |
+| CSS3 (Flex/Grid)   | -       | GitHub Pages     |
+| JavaScript (ES6+)  | -       | VS Code          |
+| Bootstrap 5        | -       | Google Analytics |
+| Font Awesome       | -       | -                |
+
+---
+
 ## 🎥 Demo
+
+*(Add a YouTube or Loom link here if available)*
+
+---
 
 ## 📦 Installation
 
@@ -34,4 +44,4 @@ To run locally:
 ```bash
 git clone https://github.com/faheemcodes/FaheemCodes.git
 cd FaheemCodes
-# Open index.html in browser
+# Open index.html in your browser

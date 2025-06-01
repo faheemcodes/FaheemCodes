@@ -15,7 +15,7 @@
     --light-gray: #DFE6E9;
     --shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
-    --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --transition: all 0.4s ease-in-out;
     --border-radius: 12px;
     --border-radius-sm: 8px;
     --gradient: linear-gradient(135deg, var(--primary), var(--danger));
@@ -414,7 +414,7 @@ section::before {
 }
 
 .skill-category:hover {
-    transform: translateY(-5px);
+    transform: scale(1.02);
     box-shadow: 0 0px 20px rgba(255, 62, 65, 0.36);
     background: rgba(0, 0, 0, 0.3);
     border-top: 3px solid var(--primary);
@@ -502,6 +502,16 @@ section::before {
     margin-left: 1rem;
     color: var(--light-gray);
     font-size: 1rem;
+}
+
+.contact-item p .mailto {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.contact-item p .mailto:hover {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 .contact-item:hover {
@@ -881,6 +891,7 @@ footer p a:hover {
         height: 6px;
     }
 
+    /* Contact  */
     .contact-info {
         margin-bottom: 1rem;
     }
