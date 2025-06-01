@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my frontend development skills, featured projects, and contact information. Built with a custom dark theme and smooth animations.
 
-🔗 **[Live Demo](https://faheemcodes.github.io/portfolio/)**  
+🔗 **[Live Demo](https://faheemcodes.github.io/FaheemCodes/)**  
 💻 **[GitHub Repository](https://github.com/faheemcodes/FaheemCodes)**
 
 ---
